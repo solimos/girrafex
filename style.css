@@ -1,0 +1,1741 @@
+/* color variables */
+
+:root {
+  --yellow: #fdf38e;
+  --tan: #deb896;
+  --green: #80c174;
+  --pink: #eca4c9;
+  --orange: #f8ba50;
+  --red: #f2594c;
+  --blue: #69c2c9;
+  --black: #020202;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--black);
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(25, 5vw);
+}
+
+
+div {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.p {
+  color: rgba(226,83,157, 0.7);
+}
+
+.g {
+  color: rgba(60, 128, 55, 0.7);
+}
+
+.w {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.r {
+  color: rgba(232, 40, 44, 0.7);
+}
+
+
+/* title */
+
+#title {
+  color: white;
+  grid-row: 17 / 19;
+  grid-column: 3 / 9;
+  letter-spacing: 7px;
+  justify-self: center;
+}
+
+
+
+/* row 1 */
+
+#yt1 {
+  grid-column: 5;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#gp1 {
+  grid-column: 6;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp2 {
+  grid-column: 7;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp3 {
+  grid-column: 8;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp4 {
+  grid-column: 9;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp5 {
+  grid-column: 10;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp6 {
+  grid-column: 11;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or1 {
+  grid-column: 12;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or2 {
+  grid-column: 13;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or3 {
+  grid-column: 17;
+  grid-row: 1;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 2 */
+
+#or4 {
+  grid-column: 12;
+  grid-row: 2;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or5 {
+  grid-column: 17;
+  grid-row: 2;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or6 {
+  grid-column: 18;
+  grid-row: 2;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 3 */
+
+#yt2 {
+  grid-column: 12;
+  grid-row: 3;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or7 {
+  grid-column: 13;
+  grid-row: 3;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or8 {
+  grid-column: 14;
+  grid-row: 3;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or9 {
+  grid-column: 15;
+  grid-row: 3;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or10 {
+  grid-column: 16;
+  grid-row: 3;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#yt3 {
+  grid-column: 17;
+  grid-row: 3;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+/* row 4 */
+
+#or11 {
+  grid-column: 1;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#yt4 {
+  grid-column: 2;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt5 {
+  grid-column: 3;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt6 {
+  grid-column: 4;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or12 {
+  grid-column: 5;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or13 {
+  grid-column: 6;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or14 {
+  grid-column: 12;
+  grid-row: 4;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 5 */
+
+#or15 {
+  grid-column: 6;
+  grid-row: 5;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#gp7 {
+  grid-column: 12;
+  grid-row: 5;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or16 {
+  grid-column: 13;
+  grid-row: 5;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or17 {
+  grid-column: 14;
+  grid-row: 5;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#gp8 {
+  grid-column: 15;
+  grid-row: 5;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+/* row 6 */
+
+#gp9 {
+  grid-column: 6;
+  grid-row: 6;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or18 {
+  grid-column: 15;
+  grid-row: 6;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 7 */
+
+#bb1 {
+  grid-column: 1;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp10 {
+  grid-column: 6;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp11 {
+  grid-column: 7;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp12 {
+  grid-column: 8;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or19 {
+  grid-column: 9;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or20 {
+  grid-column: 10;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#yt7 {
+  grid-column: 11;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt8 {
+  grid-column: 12;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt9 {
+  grid-column: 13;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or21 {
+  grid-column: 15;
+  grid-row: 7;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 8 */
+
+#gp13 {
+  grid-column: 1;
+  grid-row: 8;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#or22 {
+  grid-column: 13;
+  grid-row: 8;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or23 {
+  grid-column: 15;
+  grid-row: 8;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 9 */
+
+#gp14 {
+  grid-column: 1;
+  grid-row: 9;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#bb2 {
+  grid-column: 5;
+  grid-row: 9;
+  background-image: linear-gradient(
+    to top right,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp15 {
+  grid-column: 10;
+  grid-row: 9;
+  background-image: linear-gradient(
+    to top right,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or24 {
+  grid-column: 13;
+  grid-row: 9;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or25 {
+  grid-column: 15;
+  grid-row: 9;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 9 */
+
+#gp17 {
+  grid-column: 1;
+  grid-row: 10;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#gp18 {
+  grid-column: 5;
+  grid-row: 10;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt10 {
+  grid-column: 10;
+  grid-row: 10;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt11 {
+  grid-column: 13;
+  grid-row: 10;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or26 {
+  grid-column: 14;
+  grid-row: 10;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#yt12 {
+  grid-column: 15;
+  grid-row: 10;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+/* row 11 */
+
+#gp19 {
+  grid-column: 1;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#or27 {
+  grid-column: 2;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#gp20 {
+  grid-column: 3;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or28 {
+  grid-column: 4;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#gp21 {
+  grid-column: 5;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt13 {
+  grid-column: 10;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt14 {
+  grid-column: 15;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or29 {
+  grid-column: 16;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or30 {
+  grid-column: 17;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or31 {
+  grid-column: 18;
+  grid-row: 11;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 12 */
+
+#or32 {
+  grid-column: 3;
+  grid-row: 12;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#yt15 {
+  grid-column: 10;
+  grid-row: 12;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or33 {
+  grid-column: 15;
+  grid-row: 12;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 13 */
+
+#yt16 {
+  grid-column: 3;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#gp22 {
+  grid-column: 4;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp23 {
+  grid-column: 5;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp24 {
+  grid-column: 6;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp25 {
+  grid-column: 7;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp26 {
+  grid-column: 8;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or34 {
+  grid-column: 9;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or35 {
+  grid-column: 10;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or36 {
+  grid-column: 15;
+  grid-row: 13;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 14 */
+
+#yt17 {
+  grid-column: 10;
+  grid-row: 14;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or37 {
+  grid-column: 11;
+  grid-row: 14;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or38 {
+  grid-column: 12;
+  grid-row: 14;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or39 {
+  grid-column: 13;
+  grid-row: 14;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or40 {
+  grid-column: 14;
+  grid-row: 14;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or41 {
+  grid-column: 15;
+  grid-row: 14;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 15 */
+
+#or42 {
+  grid-column: 15;
+  grid-row: 15;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 16 */
+
+#or43 {
+  grid-column: 15;
+  grid-row: 16;
+  background-image: linear-gradient(
+    to top left,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#bb3 {
+  grid-column: 16;
+  grid-row: 16;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+/* row 17 */
+
+#bb4 {
+  grid-column: 12;
+  grid-row: 17;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#or44 {
+  grid-column: 13;
+  grid-row: 17;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#gp27 {
+  grid-column: 14;
+  grid-row: 17;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#yt18 {
+  grid-column: 15;
+  grid-row: 17;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or45 {
+  grid-column: 16;
+  grid-row: 17;
+  background-image: linear-gradient(
+    to top right,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+/* row 18 */
+
+#bb5 {
+  grid-column: 11;
+  grid-row: 18;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp28 {
+  grid-column: 12;
+  grid-row: 18;
+  background-image: linear-gradient(
+    to top right,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp29 {
+  grid-column: 13;
+  grid-row: 18;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#yt19 {
+  grid-column: 14;
+  grid-row: 18;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#gp30 {
+  grid-column: 15;
+  grid-row: 18;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#rw {
+  grid-column: 16;
+  grid-row: 18;
+  background-color: var(--red);
+  background-image: radial-gradient(circle at center, white 35%, var(--red) 38%);
+}
+
+/* row 19 */
+
+#bb6 {
+  grid-column: 10;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#yt20 {
+  grid-column: 11;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top right,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#gp31 {
+  grid-column: 12;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top right,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#bb7 {
+  grid-column: 13;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top left,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#bb8 {
+  grid-column: 14;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top left,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#yt21 {
+  grid-column: 15;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or46 {
+  grid-column: 16;
+  grid-row: 19;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+/* row 20 */
+
+#bb9 {
+  grid-column: 9;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#or47 {
+  grid-column: 10;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top left,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#bb10 {
+  grid-column: 11;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top right,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#or48 {
+  grid-column: 12;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top right,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#bb11 {
+  grid-column: 13;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top left,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#bb12 {
+  grid-column: 15;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#gp32 {
+  grid-column: 16;
+  grid-row: 20;
+  background-image: linear-gradient(
+    to top right,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+/* row 21 */
+
+#bb13 {
+  grid-column: 8;
+  grid-row: 21;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp33 {
+  grid-column: 9;
+  grid-row: 21;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt22 {
+  grid-column: 10;
+  grid-row: 21;
+  background-image: linear-gradient(
+    to top left,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#gp34 {
+  grid-column: 11;
+  grid-row: 21;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#bb14 {
+  grid-column: 12;
+  grid-row: 21;
+  background-image: linear-gradient(
+    to top left,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#bb15 {
+  grid-column: 16;
+  grid-row: 21;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+/* row 22 */
+
+#bb16 {
+  grid-column: 1;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp35 {
+  grid-column: 2;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top right,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#bb17 {
+  grid-column: 3;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#bb18 {
+  grid-column: 4;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#gp36 {
+  grid-column: 5;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#gp37 {
+  grid-column: 6;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt23 {
+  grid-column: 7;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#gp38 {
+  grid-column: 8;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt24 {
+  grid-column: 9;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top right,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#or49 {
+  grid-column: 10;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#gp39 {
+  grid-column: 11;
+  grid-row: 22;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+/* row 23 */
+
+#yt25 {
+  grid-column: 1;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top left,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#or50 {
+  grid-column: 2;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#yt26 {
+  grid-column: 3;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#yt27 {
+  grid-column: 4;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or51 {
+  grid-column: 5;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#or52 {
+  grid-column: 6;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top left,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#bb19 {
+  grid-column: 7;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#or53 {
+  grid-column: 8;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top left,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#bb20 {
+  grid-column: 9;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp40 {
+  grid-column: 10;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#or54 {
+  grid-column: 11;
+  grid-row: 23;
+  background-image: linear-gradient(
+    to top right,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+/* row 24 */
+
+#bb21 {
+  grid-column: 1;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#or55 {
+  grid-column: 2;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#or56 {
+  grid-column: 3;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#bb22 {
+  grid-column: 4;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top left,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#gp41 {
+  grid-column: 5;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#gp42 {
+  grid-column: 6;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt28 {
+  grid-column: 7;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top left,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#gp43 {
+  grid-column: 8;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top left,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt29 {
+  grid-column: 9;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top right,
+    var(--yellow) 50%,
+    var(--tan) 51%
+  );
+}
+
+#or57 {
+  grid-column: 10;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top right,
+    var(--red) 50%,
+    var(--orange) 51%
+  );
+}
+
+#bb23 {
+  grid-column: 11;
+  grid-row: 24;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+/* row 25 */
+
+#yt30 {
+  grid-column: 1;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#gp44 {
+  grid-column: 2;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#gp45 {
+  grid-column: 3;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top left,
+    var(--green) 50%,
+    var(--pink) 51%
+  );
+}
+
+#yt31 {
+  grid-column: 4;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top left,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
+
+#or58 {
+  grid-column: 5;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#or59 {
+  grid-column: 6;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top left,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#bb24 {
+  grid-column: 7;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--black) 50%,
+    var(--blue) 51%
+  );
+}
+
+#or60 {
+  grid-column: 8;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top left,
+    var(--orange) 50%,
+    var(--red) 51%
+  );
+}
+
+#bb25 {
+  grid-column: 9;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--blue) 50%,
+    var(--black) 51%
+  );
+}
+
+#gp46 {
+  grid-column: 10;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--pink) 50%,
+    var(--green) 51%
+  );
+}
+
+#yt32 {
+  grid-column: 11;
+  grid-row: 25;
+  background-image: linear-gradient(
+    to top right,
+    var(--tan) 50%,
+    var(--yellow) 51%
+  );
+}
